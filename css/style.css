@@ -15,45 +15,22 @@ li {
 	
 a {text-decoration: none;
 	}
-	
+
+h2 {
+padding-top: 120px;
+text-align: center;
+}	
 
 .block_content{
 width: 1100px;
-margin: 0 270px;
+margin: 0 auto;
 }
-
-#block_1 {
-background-color:87509c;
-min-height: 598px;
-text-transform: uppercase;
-
-}
-#main_navigation {
-margin-top: 60px;
-float: right;
-}
-
-.main_navigation_item  {
-display: inline-block;
-color: white;
-//padding: 8px 9px;
-width: 77px;
-height: 32px;
-}
-
-.main_navigation_item a:hover {
-
-background-color: #643a79;
-
+.line {
+height: 4px;
+width: 87px;
+margin: 0 auto;
 
 }
-
-#block_1 h2 {
-padding-top:240px;
-
-
-}
-
 
 .button {
 background-color: #eb7d4b;
@@ -62,6 +39,48 @@ width: 293px;
 margin: 0 auto;
 text-align: center;
 }
+
+
+#block_1 {
+background-color:87509c;
+min-height: 598px;
+color: white;
+
+
+}
+#main_navigation {
+margin-top: 60px;
+float: right;
+text-transform: uppercase;
+}
+
+.main_navigation_item  {
+display: block;
+color: white;
+//padding: 8px 9px;
+width: 77px;
+height: 32px;
+margin: 0 auto;
+}
+
+.main_navigation_item:hover {
+background-color: #643a79;
+}
+
+#block_1 h2 {
+padding-top: 120px;
+width: 908px;
+margin: 0 auto;
+}
+
+
+
+#block_1 .button {
+border-bottom: 4px solid #c86a40;
+margin-top: 60px;
+text-transform: uppercase;
+}
+
 
 #block_2{
 background-color:#17c2a4;
@@ -91,17 +110,42 @@ min-height: 660px;
 background-color:#ffdd99;
 min-height: 1425px;
 }
-
+#block_5 .line {
+background-color: #e5c37f;
+}
 
 #block_6 {
 background-color:#d74680;
-min-height: 898px;}
-
-#block_7 {
-background-color:#3c5499}
-
-#public_sites {
-display: inline-block;
-
+min-height: 898px;
+}
+.client_name {
+text-transform: uppercase;
+}
+#block_6 .line {
+background-color: #b73c6d;
+}
+.client_position {
+color: #ffdd99;
 }
 
+#block_7 {
+background-color:#3c5499
+}
+#block_7 .line {
+background-color: #273a71;
+}
+#block_7 input {
+background-color: #273a71;
+}
+#block_7 h2{
+
+color: white;
+text-transform: uppercase;
+}
+#public_sites li {
+
+display: inline-block;
+padding: 46px 23px;
+}
+#public_sites li a{
+color: white;}
