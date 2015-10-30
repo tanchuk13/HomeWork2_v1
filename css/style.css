@@ -104,29 +104,29 @@ text-transform: uppercase;
 
 #block_2{
 background-color:#17c2a4;
+color: white;
 
 }
-
-#block_2 .line {
-background-color: #14a58c;
-}
-
 
 .navigation_2_item {
 	display: inline-block;
+	width: 200px;
+	
 }
-
-
-
+.navigation_2_item_name {
+text-transform: uppercase;
+text-align: center;
+padding: 60px 0 28px 0;
+}
+.navigation_2_item_descr{
+text-align: center;
+text-overflow: ellipsis; /*it doesn`t work*/
+}
 
 
 #block_3 {
 background-color: #e7f1f8;
 
-}
-
-#block_3 .line {
-background-color: #c8d9e5;
 }
 
 .content_3_item {
@@ -181,11 +181,13 @@ background-color: #17c2a4;
 
 #block_5 .box {
 display: inline-block;
+
 }
+
 #block_5 .box li {
 display: inline-block;
-
 background-color: #ebc985;
+
 }
 
 #block_5 .box li a{
@@ -194,12 +196,17 @@ padding: 10px 20px;
 display: inline-block;
 text-transform: uppercase;
 text-decoration: none;
+color: black;
+
 }
 
 #block_5 .box li a:hover {
 background-color: white;
 }
 
+.portfolio {
+
+	}
 
 .portfolio_img {
 height: 306px;
