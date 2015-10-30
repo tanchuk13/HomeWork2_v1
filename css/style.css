@@ -17,16 +17,30 @@ li {
 a {text-decoration: none;
 	}
 
-h2 {
-padding-top: 120px;
+h1 {
 text-align: center;
 }	
+
+h2 {
+text-align: center;
+text-transform: uppercase;
+}
+
+h2:after {
+content: '';
+background-image: url("../img/layout/line.png");
+background-position: 20px 50px;
+}
 
 .block_content{
 width: 1100px;
 margin: 0 auto;
+
 }
 
+.position {
+padding: 120px 170px;
+}
 .button {
 padding: 29px 80px;
 width: 293px;
@@ -40,6 +54,7 @@ text-transform: uppercase;
 #block_1 {
 color: white;
 background-color: #87509c;
+padding-top: 60px;
 }
 
 #block_1 .button {
@@ -47,13 +62,15 @@ background-color: #eb7d4b;
 }
  
 #block_1 .block_content {
-background: url("../img/layout/logo.png") no-repeat; 
+background: url("../img/layout/logo.png") 42px 0 no-repeat; 
+padding-bottom: 25px;
 }
 
 #main_navigation {
-margin-top: 60px;
 float: right;
 text-transform: uppercase;
+
+
 }
 
 .main_navigation_item  {
@@ -70,8 +87,8 @@ background-color: #643a79;
 }
 
 /* B L O C K  №2 */
-#block_1 h2 {
-padding-top: 240px;
+#block_1 h1 {
+padding-top: 120px;
 width: 908px;
 margin: 0 auto;
 }
@@ -156,27 +173,46 @@ background-color: #dfe8ed;
 /* B L O C K  №5 */
 #block_5 {
 background-color:#ffdd99;
-
 }
 
-#block_5 .line {
-background-color: #e5c37f;
+#block_5 .button {
+background-color: #17c2a4;
 }
 
-.portfolio {
-
+#block_5 .box {
+display: inline-block;
 }
+#block_5 .box li {
+display: inline-block;
+
+background-color: #ebc985;
+}
+
+#block_5 .box li a{
+height: 18px;
+padding: 10px 20px;
+display: inline-block;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#block_5 .box li a:hover {
+background-color: white;
+}
+
 
 .portfolio_img {
 height: 306px;
 width: 551px;
-background-color: red; 
 background: url("../img/layout/comp.png") no-repeat; 
 }
+
 .portfolio_img img {
 float: right;
 padding: 17px 65px 0 0;
 }
+
+
 
 #block_6 {
 background-color:#d74680;
@@ -185,9 +221,8 @@ background-color:#d74680;
 .client_name {
 text-transform: uppercase;
 }
-#block_6 .line {
-background-color: #b73c6d;
-}
+
+
 .client_position {
 color: #ffdd99;
 }
@@ -195,9 +230,11 @@ color: #ffdd99;
 #block_7 {
 background-color:#3c5499
 }
-#block_7 .line {
-background-color: #273a71;
-}
+
+#block_7 .button {
+background-color: #30bae7;}
+
+
 #block_7 input {
 background-color: #273a71;
 border: none;
