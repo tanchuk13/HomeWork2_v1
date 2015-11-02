@@ -227,7 +227,6 @@ background-color: #17c2a4;
 
 #block_5 .box {
 display: inline-block;
-
 margin: 0 auto;
 
 }
@@ -273,23 +272,54 @@ padding: 17px 65px 0 0;
 background-color:#d74680;
 
 }
+
+.client {
+display: inline-table;
+width: 500px;
+}
+
+.client_photo {
+width: 90px;
+height: 90px;
+background-color: #787878;
+ -webkit-border-radius: 45px;
+ -moz-border-radius: 45px;
+ border-radius: 45px;
+
+}
+
 .client_name {
+display: table-cell
 text-transform: uppercase;
 }
 
 
 .client_position {
+display: table-cell;
 color: #ffdd99;
+
+}
+
+.client_feedback {
+display: inline-cell;
+width: 350px;
+
 }
 
 #block_7 {
-background-color:#3c5499
+background-color:#3c5499;
+color: white;
 }
 
 #block_7 .button {
 border-bottom: 4px solid #299ec5;
-background-color: #30bae7;}
+background-color: #30bae7;
+margin-top: 75px;
+}
 
+#block_7  h3 {
+padding-bottom: 80px;
+}
 
 #block_7 input {
 background-color: #273a71;
@@ -303,9 +333,26 @@ text-transform: uppercase;
 #block_7 h3 {
 width: 850px;
 }
+#inToch_input {
+  width: 414px;
+  height: 56px; 
+  border-radius: 4px;
+  color: white;
+  
+}
+
+#inToch_message {
+	color: white;
+	width: 860px;
+  height: 200px;
+  border-radius: 4px;
+ 
+}
+
+
 
 #public_sites  {
-background-color: pink;
+background-color: #344b8e;
 }
 
 #public_sites li {
@@ -316,3 +363,7 @@ padding: 46px 23px;
 #public_sites li a{
 
 color: white;}
+
+#public_sites li a:hover {
+color: #30bae7;
+}
