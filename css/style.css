@@ -6,7 +6,8 @@ margin:0;
 }
 
 #wraper {
-width: 1440px;
+/*width: 1440px;*/
+widht: 100%;
 margin: 0 auto;
 }
 
@@ -24,14 +25,27 @@ text-align: center;
 h2 {
 text-align: center;
 text-transform: uppercase;
+
 }
+
+
+
+
+h3{
+display: block;
+margin: 0 auto;
+text-align: center;
+width: 600px;
+}
+
+
 
 h2:after {
-content: '';
-background-image: url("../img/layout/line.png");
-background-position: 20px 50px;
-}
+display: block;
+content: url("../img/layout/line.png");
+padding: 22px 0;
 
+}
 .block_content{
 width: 1100px;
 margin: 0 auto;
@@ -46,6 +60,9 @@ padding: 29px 80px;
 width: 293px;
 text-align: center;
 text-transform: uppercase;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
 }
 .button_position 
 {margin: 0 auto;}
@@ -86,7 +103,6 @@ margin: 0 auto;
 background-color: #643a79;
 }
 
-/* B L O C K  №2 */
 #block_1 h1 {
 padding-top: 120px;
 width: 908px;
@@ -102,23 +118,26 @@ text-transform: uppercase;
 }
 
 
+
+/* B L O C K  №2 */
 #block_2{
 background-color:#17c2a4;
 color: white;
-
 }
 
 .navigation_2_item {
-	display: inline-block;
+	display:inline-block;
 	width: 200px;
 	
 }
 .navigation_2_item_name {
+
 text-transform: uppercase;
 text-align: center;
 padding: 60px 0 28px 0;
 }
 .navigation_2_item_descr{
+
 text-align: center;
 text-overflow: ellipsis; /*it doesn`t work*/
 }
@@ -138,11 +157,13 @@ text-align:center;
 margin-top: 80px;
 }
 
-.content_3_item img{
+.content_3_item_photo{
 width: 200px;
 height: 200px;
 background-color: rgb(135, 135, 135);
-border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ border-radius: 100px;
 
 }
 .content_3_item_name {
@@ -160,27 +181,54 @@ font-family: 'Titillium';
 margin: 15px 0;
 }
 
+.content_3_item_socio {
+padding-top: 32px;
+}
 
+.content_3_item_socio li {
+display: inline-block;
+background: url("../img/layout/contact_circle.png") no-repeat;
+height: 32px;
+width: 32px;
+}
+.content_3_item_socio li a{
+display: inline-block;
+padding-top: 6px;
+height: 32px;
 
+}
 #block_4 {
 background-color:#ffffff;
-
 }
 #block_4 .line {
 background-color: #dfe8ed;
 }
 
+.skills_diagrams {
+display: inline-block;
+
+}
+
+.skills_diagrams_name {
+display: block;
+padding-top: 30px;
+text-align: center;
+text-transform: uppercase;
+}
 /* B L O C K  №5 */
 #block_5 {
 background-color:#ffdd99;
 }
 
 #block_5 .button {
+border-bottom: 4px solid #14a58c;
 background-color: #17c2a4;
 }
 
 #block_5 .box {
 display: inline-block;
+
+margin: 0 auto;
 
 }
 
@@ -239,6 +287,7 @@ background-color:#3c5499
 }
 
 #block_7 .button {
+border-bottom: 4px solid #299ec5;
 background-color: #30bae7;}
 
 
@@ -247,14 +296,23 @@ background-color: #273a71;
 border: none;
 }
 #block_7 h2{
-
 color: white;
 text-transform: uppercase;
 }
-#public_sites li {
 
+#block_7 h3 {
+width: 850px;
+}
+
+#public_sites  {
+background-color: pink;
+}
+
+#public_sites li {
 display: inline-block;
 padding: 46px 23px;
+
 }
 #public_sites li a{
+
 color: white;}
