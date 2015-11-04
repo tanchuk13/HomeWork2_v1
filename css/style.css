@@ -146,13 +146,12 @@ display: table;
 .navigation_2_item {
 	display: table;
 	float: left;
-	
-	width: 200px;
 	width: 250px;
 	margin-left:20px;
 }
+
 /*
-.navigation_2_item:first_child {
+#navigation_2 div:first_child {
 margin-left: 0;
 }
 */
