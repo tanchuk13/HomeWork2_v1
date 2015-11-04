@@ -144,8 +144,9 @@ display: table;
 }
 
 .navigation_2_item {
-	display: table-;
+	display: table;
 	float: left;
+	
 	width: 200px;
 	width: 250px;
 	margin-left:20px;
@@ -171,11 +172,11 @@ margin: 0 auto;
 display: table-cell;
 margin: 0 auto;
 width: 200px;
-height: 120px;
+height: 150px;
 max-width: 200px;
 text-overflow: clip; /*it doesn`t work*/
 overflow: hidden;	/*it doesn`t work*/
-
+vertical-align: middle;
 text-align: center;
 padding: 60px 28px 28px 28px;
 }
@@ -280,10 +281,19 @@ height: 150px;
 width: 160px;
 margin-left:60px;
 margin-right: 50px;
+
+}
+.skills_diagrams_diagram {
+position: relative;
+display: inline-block;
 }
 
-
-
+.skills_diagrams_diagram  span {
+	display:inline-block;
+    position: absolute;
+    top: 30px;   
+    left:30px;
+}
 .skills_diagrams_name {
 display: block;
 padding-top: 30px;
