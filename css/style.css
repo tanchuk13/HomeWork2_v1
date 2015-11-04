@@ -25,11 +25,7 @@ text-align: center;
 h2 {
 text-align: center;
 text-transform: uppercase;
-
 }
-
-
-
 
 h3{
 display: block;
@@ -39,22 +35,23 @@ width: 600px;
 }
 
 
-
 h2:after {
 display: block;
 content: url("../img/layout/line.png");
 padding: 22px 0;
-
 }
+
 .block_content{
 width: 1100px;
 margin: 0 auto;
+overflow: hidden;
 
 }
 
 .position {
 padding: 120px 170px;
 }
+
 .button {
 padding: 29px 80px;
 width: 293px;
@@ -64,8 +61,9 @@ text-transform: uppercase;
  -moz-border-radius: 3px;
  border-radius: 3px;
 }
-.button_position 
-{margin: 0 auto;}
+.button_position {
+margin: 0 auto;
+}
 
 /* B L O C K  №1 */
 #block_1 {
@@ -85,7 +83,6 @@ padding-bottom: 25px;
 
 #main_navigation {
 float: right;
-
 text-transform: uppercase;
 }
 
@@ -112,8 +109,6 @@ width: 908px;
 margin: 0 auto;
 }
 
-
-
 #block_1 .button {
 border-bottom: 4px solid #c86a40;
 margin-top: 60px;
@@ -132,27 +127,51 @@ color: white;
 margin-bottom: 140px;
 }
 
-.navigation_2_item {
-	display:inline-block;
-	width: 200px;
-	margin: 0 40px;
+#navigation_2 {
+overflow: hidden
 }
+
+.navigation_2_item {
+	float: left;
+	width: 200px;
+	
+	width: 260px;
+	margin-left:20px;
+}
+
+.navigation_2_item:first_child {
+margin-left: 0;
+}
+
+.navigation_2_item_img {
+	background-color: pink;
+	
+	min-height: 135px;
+	min-width: 63px;
+	max-height: 135px;
+	margin: 0 auto;
+}
+
 .navigation_2_item_name {
 display: table-cell;
 margin: 0 auto;
 width: 200px;
-max-width: 200px;
-text-overflow: clip;
-overflow: hidden;
+min-height: 100px;
+max-height: 100px;
+text-overflow: clip; /*it doesn`t work*/
+overflow: hidden;	/*it doesn`t work*/
 text-transform: uppercase;
 text-align: center;
 
-padding: 60px 0 28px 0;
+padding: 60px 30px 28px 30px;
 }
 .navigation_2_item_descr{
 font-size: 16px;
 text-align: center;
 text-overflow: ellipsis; /*it doesn`t work*/
+min-height: 100px;
+max-height: 100px;
+padding: 0 30px;
 }
 
 
@@ -162,8 +181,7 @@ background-color: #e7f1f8;
 }
 
 .content_3_item {
-overflow: hidden;
-display: inline-block;
+float: left;
 padding: 0 30px;
 width: 200px;
 text-align:center;
@@ -180,9 +198,11 @@ background-color: rgb(135, 135, 135);
 
 }
 .content_3_item_name {
+display: table-cell;
+	vertical-align: middle;
 padding-top: 45px;
 text-transform: uppercase;
-margin: 0 auto;
+
 font: 24px 'Titillium'bold;
 
 }
@@ -229,6 +249,7 @@ background-color: #dfe8ed;
 #skills_diagrams {
 height: 218px;
 max-height: 270px;
+
  
 }
 .skills_diagrams_image {
