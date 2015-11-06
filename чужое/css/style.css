@@ -1,0 +1,502 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,400italic,600,700);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: bold 40px;
+}
+
+h2 {
+    width: auto;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+h3, p {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px;
+}
+a {
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h1, a {
+    text-transform: uppercase;
+
+}
+
+.color-purple {
+    background: #87509c; 
+}
+
+.page-first, .page-second, .page-third, .page-four, .page-fifth, .page-six, .page-seven {
+    width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.page-first h1, a {
+    color: white;
+}
+
+.page-first h1 {
+    text-transform: none;
+}
+
+.logo {
+    margin: 58px 0 0 212px;
+    width: 120px;
+    height: 37px;
+    float: left;
+	text-indent: -90000px;
+	background: url("../images/layout/logo.png") no-repeat 0 0;
+}
+
+.logo:hover {
+	opacity: 0.8;
+}
+
+.main-navigation {
+    margin: 72px 148px 0 0;
+    display: inline-flex;
+    float: right;
+    list-style: none;
+}
+
+.main-navigation li {
+    padding: 0 5px;
+}
+
+.main-navigation a {
+    padding: 7px 17px;
+    font-size: 16px;
+}
+
+.main-navigation li.active a, .main-navigation li a:hover {
+    border-radius: 5px;
+    background: #643a79;
+}
+
+.text-first {
+    font-size: bold 42px;
+    margin: 150px 40px 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.2;    
+}
+
+.color-turquoise {
+    background: #17c2a4; 
+}
+
+.page-second {
+    background: #17c2a4; 
+    text-align: center;
+    color: white;
+}
+
+.collumn {
+    width: 210px;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.collumn-image {
+    margin: 0 auto;
+    width: 220px;
+    height: 150px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.page-name {
+    padding-top: 100px;
+    line-height: 65px;
+    background: url(../images/content/line.png) no-repeat center bottom;
+}
+
+.page-about {
+    padding: 10px 0 40px 0;
+}
+
+.color-grey {
+    background: #e7f1f8; 
+}
+
+.page-third {
+    background: #e7f1f8; 
+    text-align: center;
+    color: #3c4761;
+}
+
+.collumn-content a {
+    color: #3c4761;
+}
+
+.collumn-content a:hover {
+    color: #27283d;
+}
+
+.collumn-content h3 {
+    color: #48c1e9;
+}
+
+.collumn-content p {
+    line-height: 1.5em;
+    padding-top: 15px;
+}    
+
+.collumn-portrait-team {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.collumn-content a{
+    margin-top: 40px;
+}
+
+.social {
+    padding: 0;
+    margin: 30px auto;
+    display: inline-block;
+}
+
+.social li, .social li a{
+	width: 32px;
+	height: 32px;
+    float: left;
+}
+
+.social li{
+    margin: 0 5px;
+	background: #bdd1df;
+	border-radius: 100%;
+    list-style: none;
+}
+.social li a{
+    text-indent: -90000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social li.facebook a{
+    background-image: url(../images/content/facebook.png);	
+}
+
+.social li.twitter a{
+    background-image: url(../images/content/twitter.png);	
+}
+
+.social li.linkedin a{
+    background-image: url(../images/content/linkedin.png);	
+}
+
+.social li.mail a{
+    background-image: url(../images/content/mail.png);	
+}
+
+.social li:hover{
+	background: #a7c7dd;
+}
+
+.color-white {
+    background: #ffffff; 
+}
+
+.page-four {
+    background: #ffffff; 
+    text-align: center;
+    color: #3c4761;
+}
+
+.collumn-skills, .collumn-skills a {
+    width: 134px;
+    height: 134px;
+    border-radius: 134px;
+    vertical-align: middle;
+    background-color: white;
+    font-size: 55px;
+    font-weight: 300;
+    color: black;
+}
+
+.collumn-skills { 
+    display: inline-block;
+}
+
+.collumn-skills a {
+    display: table-cell;
+}
+
+.borderblue {
+        border: solid 13px #30bae7;
+}
+
+.borderpink {
+        border: solid 13px #d74680;
+}
+
+.borderaqua {
+        border: solid 13px #15c7a8;
+}
+
+.borderorange {
+        border: solid 13px #eb7d4b;
+}
+
+.collumn-content {
+    margin-top: 25px;
+}
+
+.color-beige {
+    background: #ffdd99; 
+}
+
+.page-fifth {
+    background: #ffdd99; 
+    text-align: center;
+    color: #393939;
+}
+
+.second-navigation {
+    margin: 0 auto;
+    display: inline-flex;
+    list-style: none;
+}
+
+.second-navigation li {
+    padding: 0 5px;
+}
+
+.second-navigation a {
+    width: 84px;
+    height: 38px;
+    padding: 7px 17px;
+    font-size: 14px;
+    background: #ebc985;
+    border-radius: 3px;
+    color: #393939;
+}
+
+.second-navigation li.active a, .second-navigation li a:hover {
+    background: #fff;
+}
+
+.collumn-portfolio {
+    margin-top: 60px;
+    padding: 0 5px;
+    width: 540px;
+    height: 311px;
+    display: inline-block;
+}
+
+.collumn-portfolio a {
+    color: #393939;
+    margin-bottom: 65px;
+}
+
+.collumn-notebook {
+    width: 540px;
+    height: 311px;
+    background: url(../images/content/notebook.png) no-repeat 0 0;
+    display: inline-block;
+}
+
+.collumn-notebook img {
+    width: 410px;
+    height: 256px;
+    position: relative;
+    margin-top: 18px;    
+}
+
+.color-pink {
+    background: #d74680; 
+}
+
+.page-six {
+    background: #d74680; 
+    text-align: center;
+    color: #ffffff;
+}
+
+.collumn-people {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    padding: 5px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.collumn-portrait-people {
+    width: 92px;
+    height: 92px;
+    border-radius: 92px;
+    overflow: hidden;
+    background-color: grey;
+    float: left;
+}
+
+.column-content-people {
+    width: 350px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.column-content-people p {
+    font-style: italic;
+    font-size: 21px;
+    padding-bottom: 30px;
+}
+
+.column-content-people a {
+    padding-left: 5px;
+}
+
+.column-content-people h3 {
+    color: #ffdd99;
+}
+
+.color-blue {
+    background: #3c5499; 
+}
+
+.page-seven {
+    background: #3c5499; 
+    text-align: center;
+    color: #ffffff;
+}
+
+.form-name, .form-email, .form-message {
+    margin: 16px 16px;
+    padding: 20px 25px;
+    background: #273a71;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    overflow: hidden;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+}
+
+.form-name, .form-email {
+    width: 387px;
+    height: 16px;
+}
+
+.form-name:focus, .form-email:focus, .form-message:focus {
+    background: #1d3169;
+    outline: none;
+}
+
+.form-message {
+	width: 860px;
+    height: 200px;
+    resize: vertical;
+}
+
+.color-darkblue {
+    background: #344b8e; 
+}
+
+.footer {
+    width: 1140px;
+    margin: 0 auto;
+    height: 112px;
+    background: #344b8e; 
+    text-align: center;
+    color: #ffffff;
+}
+
+.bottom-navigation {
+    margin: 0 auto;
+    display: inline-flex;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.bottom-navigation li {
+    padding: 0 5px;
+}
+
+.bottom-navigation a {
+    width: 84px;
+    height: 38px;
+    padding: 7px 17px;
+    font-size: 24px;
+    color: #fff;
+    text-transform: none;
+}
+
+.bottom-navigation li.active a, .bottom-navigation li a:hover {
+    color: #30bae7;
+}
+
+.button {
+    margin: 0 auto;
+    width: 293px;
+    height: 70px;   
+    border-radius: 4px;
+    border-bottom: solid 4px hsla(0, 0%, 0%, 0.15);
+    margin-top: 60px;
+}
+
+.button a {
+    margin: 0 auto;
+    width: 293px;
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer; 
+    color: white;
+}
+
+.orange {
+    background: #eb7d4b;
+}
+
+.blue {
+    background: #17c2a4;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
